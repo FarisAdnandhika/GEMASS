@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PDF Example by Object Tag</title>
+    <title>PDF Viewer</title>
   </head>
   <body>
-    <h1>PDF Example by Object Tag</h1>
-    <object data="GEMASS.pdf" type="application/pdf" width="100%" height="100%">
-      <p>Unable to display PDF file. <a href="https://github.com/FarisAdnandhika/GEMASS/blob/c06e5e21345c979b6203d49428b4c855805c8d3d/GEMASS.pdf">Download</a> instead.</p>
-    </object>
+
+    <!--
+      Place the following <div> element where you want the PDF to be displayed in your website. You can change the size using the width and height attributes.
+    -->
+    <div>
+      <object
+        data='https://github.com/FarisAdnandhika/GEMASS/blob/0a8f92399e33a4775c2944090bd47ef13e4b7f00/GEMASS.pdf'
+        type="application/pdf"
+        width="500"
+        height="678"
+      >
+
+        <iframe
+          src='https://github.com/FarisAdnandhika/GEMASS/blob/0a8f92399e33a4775c2944090bd47ef13e4b7f00/GEMASS.pdf'
+          width="500"
+          height="678"
+        >
+        <p>This browser does not support PDF!</p>
+        </iframe>
+      </object>
+    </div>
+
   </body>
 </html>
